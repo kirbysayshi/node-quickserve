@@ -6,7 +6,7 @@
 	"author": "Andrew Petersen <senofpeter@gmail.com> (http://kirbysayshi.github.com)",
 	"repository": "https://github.com/kirbysayshi/node-quickserve",
 	"main": "index",
-	"bin": { "qserve": "bin/quickserve.js" },
+	"bin": { "quickserve": "bin/quickserve.js" },
 	"dependencies": { "connect": ">=1.0.0" },
 	"engines": { "node" : ">= 0.4.1 < 0.5.0"},
 	"preferGlobal": true
