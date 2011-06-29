@@ -1,0 +1,13 @@
+{
+	"name": "quickserve",
+	"version": "0.0.1",
+	"description": "A quick utility script that instantly serves static content from a given directory. Useful for quickly running local examples that use AJAX.",
+	"keywords": ["connect", "server", "http", "utility", "quick"],
+	"author": "Andrew Petersen <senofpeter@gmail.com> (http://kirbysayshi.github.com)",
+	"main": "index",
+	"bin": { "qserve": "bin/quickserve.js" },
+	"dependencies": { "connect": ">=1.0.0" },
+	"engines": { "node" : ">= 0.4.1 < 0.5.0"},
+	"preferGlobal": true
+	
+}
